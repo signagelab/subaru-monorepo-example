@@ -1,11 +1,11 @@
 {
+  "name": "monorepo-vercel-example",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
     "libs/*"
   ],
-  "name": "monorepo-vercel-example",
   "scripts": {
     "build": "wsrun --stages --report --fast-exit --exclude-missing build && yarn workspace @signagelab/cms copy-modules-to-public-folder"
   },
