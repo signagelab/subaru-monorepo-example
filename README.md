@@ -16,7 +16,7 @@ This example contains 3 main things:
 ## Screenshots
 
 - ![Next.js](https://orukami.fra1.digitaloceanspaces.com/dropshare/2024/10/x0w9lecA.png)
-- ![Remix SPA](https://orukami.fra1.digitaloceanspaces.com/dropshare/2024/10/sy9SuG3Y.png)
+- ![Remix SPA](https://orukami.fra1.digitaloceanspaces.com/dropshare/2024/10/ogWxB5bU.png)
 
 ## Extra notes
 

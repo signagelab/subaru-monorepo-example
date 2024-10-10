@@ -45,7 +45,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             fontSize: 60,
           }}
         >
-          {displayFunction("Next.js")}
+          {displayFunction("Remix SPA")}
         </div>
         {children}
         <ScrollRestoration />
