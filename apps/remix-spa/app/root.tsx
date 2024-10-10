@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
+import { displayFunction } from "@monorepo-vercel-example/display";
 
 import "./tailwind.css";
 
@@ -32,6 +33,20 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <div
+          style={{
+            background: "blue",
+            color: "white",
+            width: "100%",
+            height: 300,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            fontSize: 60,
+          }}
+        >
+          {displayFunction("Next.js")}
+        </div>
         {children}
         <ScrollRestoration />
         <Scripts />

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import { displayFunction } from "@monorepo-vercel-example/display";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,6 +27,22 @@ export default function Home() {
           height={38}
           priority
         />
+
+        <div
+          style={{
+            background: "blue",
+            color: "white",
+            width: "100%",
+            height: 300,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            fontSize: 60,
+          }}
+        >
+          {displayFunction("Next.js")}
+        </div>
+
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
