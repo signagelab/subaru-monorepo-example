@@ -1,1 +1,0 @@
-# subaru-monorepo-example
